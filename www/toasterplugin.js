@@ -15,7 +15,7 @@ ToasterPlugin.install = function() {
   if (!window.plugins) {
     window.plugins = {};
   }
-  window.plugins.ToasterPlugin = new ToasterPlugin();
-  return window.plugins.ToasterPlugin;
+  window.plugins.toasterPlugin = new ToasterPlugin();
+  return window.plugins.toasterPlugin;
 };
 cordova.addConstructor(ToasterPlugin.install);
