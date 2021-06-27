@@ -1,4 +1,5 @@
 package com.linkdev.cordova.plugin;
+		
 // The native Toast API
 import android.widget.Toast;
 // Cordova-required packages
